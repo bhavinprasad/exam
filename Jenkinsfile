@@ -3,7 +3,7 @@ pipeline {
 	stages{
            stage('Checkout'){
 		steps {
-			git clone 'https://github.com/bhavinprasad/exam.git'
+			git 'https://github.com/bhavinprasad/exam.git'
 		}
 	}
 	   stage('Run script') {
